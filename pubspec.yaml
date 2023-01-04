@@ -1,0 +1,42 @@
+name: firebase_messaging_example
+description: Demonstrates how to use the firebase_messaging plugin.
+
+environment:
+  sdk: '>=2.16.0 <3.0.0'
+  flutter: '>=1.12.13+hotfix.5'
+
+dependencies:
+  firebase_core:
+  google_fonts:
+  fluttertoast:
+  provider:
+  firebase_auth:
+  cloud_firestore:
+  animations:
+  dio:
+  cached_network_image:
+  lottie:
+  firebase_messaging:
+  flutterfire_cli:
+  google_sign_in:
+  flutter:
+    sdk: flutter
+  flutter_local_notifications: ^12.0.4
+  http: ^0.13.0
+
+dev_dependencies:
+  flutter_launcher_icons: "^0.11.0"
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/logo11.png"
+  min_sdk_android: 21 # android min sdk min:16, default 21
+
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/lottie/
